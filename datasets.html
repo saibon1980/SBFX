@@ -1,0 +1,148 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+
+
+
+
+
+
+
+<input type="text" id="my" onkeyup="myFunction()" placeholder="Search for datasets by title">
+
+<table id="myTable">
+    <tr class="header">
+        <th style="width:20%;">Title </th>
+        <th style="width:60%;">Description</th>
+        <th style="width:10%;">Dataset updated </th>
+        <th style="width:10%;">Dataset provided by</th>
+
+
+
+    </tr>
+    <tr>
+        <td>
+            Address and zone data
+
+        </td>
+        <td>
+            This data collection defines the location, address, including suburb and postal code and related zoning for each property.
+            Lotplan and address details are collected from the Department of Natural Resour...
+            Show complete explanation This data collection describes with each property the Lotplan, the address,
+            including the suburb and postcode, and the related zoning. Lotplan and address details are provided by
+            the Department of Natural Resources and Mines.
+        </td>
+
+        <td>
+
+            Apr 30, 2020
+
+        </td>
+
+        <td>
+
+            City of Gold Coast
+
+        </td>
+
+
+
+    </tr>
+    <tr>
+        <td>Census TIGER database</td>
+
+
+        <td>
+            The 2006 Second Edition TIGER/Line files are an extract of selected geographical and cartographic details from the Census TIGER database.
+            The geographic range for a single TIGER/Line file is a county or statistical comparable body with a coverage area dependent on the current
+            available government district boundaries. The Census TIGER archive is a seamless national
+            file with no overlaps or differences between sections.
+        </td>
+
+        <td>
+
+           Jul 1, 2006
+
+        </td>
+
+        <td>
+
+            Earth Data Analysis Center
+
+        </td>
+    </tr>
+    <tr>
+        <td>Earth Data Analysis Center</td>
+        <td>
+            This data set contains imagery from the 1986 Western New Mexico Aerial Survey Project for the NM State Engineer Office (SEO).
+            The imagery was flown at 1:18,000 by Thomas R. Mann and Associates. The film is archived at the Earth Data Analysis Center.
+        </td>
+
+        <td>
+
+            Sep 14, 2020
+
+        </td>
+
+        <td>
+
+            Earth Data Analysis Center
+
+        </td>
+
+
+
+    </tr>
+   
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex-container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>SBFX</h2>
+            <p>
+
+
+
+
+                <button type="button">Index Search</button>
+
+
+
+                <button type="button">Random Dataset</button>
+
+
+
+
+
+            </p>
+            <p><a class="btn btn-default" href="https://www.saibonfx.com/">Search Database &raquo;</a></p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+    {% endblock %}
